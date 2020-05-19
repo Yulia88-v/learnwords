@@ -7,16 +7,21 @@ const Lesson= () =>{
 		<>
 		<div className={s.block}>
         <h1 className={s.listtitle}>Мы создали для Вас самоучитель английского языка,<br/>чтобы помочь увереннее разговарить<br/>на английском языке</h1>
-        <ul className={s.list}>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-        </ul>
-        <ul className={s.list2}>
-        <li>Удобно использовать</li>
-        <li>Экономит Ваше время</li>
-        <li>Быстро запоминаете слова</li>
-        </ul>
+        </div>
+        <div className={s.list}>
+
+       <div>
+        <h1 className={s.number}>1</h1>
+        <h1 className={s.text}>Удобно использовать</h1>
+        </div>
+        <div>
+        <h1 className={s.number}>2</h1>
+        <h1 className={s.text}>Экономит Ваше время</h1>
+        </div>
+        <div>
+        <h1 className={s.number}>3</h1>
+        <h1 className={s.text}>Быстро запоминаете слова</h1>
+        </div>
         </div>
        </>
 		);
